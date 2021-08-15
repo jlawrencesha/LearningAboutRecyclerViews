@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
+        //RecyclerView Data
         var studentList = ArrayList<Students>()
 
         studentList.add(Students("John Lawrence", 25))
